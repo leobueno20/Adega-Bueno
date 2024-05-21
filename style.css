@@ -4,7 +4,7 @@
 .titulo{
     color: green;
     font-size: 50px;
-    padding-left: 4rem;
+    padding-left: 3.5rem;
     line-height: 6rem;
     margin-top: 17px;
     font-family: Luckiest Guy;
@@ -21,37 +21,46 @@
 .blocos{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 12%;
+    margin-left: 6%;
 
 }
+
 .quad1{
     background-image: url(assets/copao.jpg);
     background-size: cover;
-    margin: 10px;
-    width: 146px;
-    height: 153px;
+    margin: 10% 5% 0 0;
+    width: 11rem;
+    height: 15rem;
     color: white;
 }
-.quad1 .texto{
-    color: blanchedalmond;
-}
+
 .quad2{
     background-image: url(assets/brahma.jpg);
     background-position: center center;
-    margin: 10px;
-    width: 146px;
-    height: 153px;
+    margin: 10% 0 0 0;
+    width: 11rem;
+    height: 15rem;
     background-color: green;
 }
 .quad3{
-    margin: 10px;
-    width: 146px;
-    height: 153px;
+    margin: 10% 5% 10% 0;
+    width: 11rem;
+    height: 15rem;
     background-color: white;
 }
 .quad4{
-    margin: 10px;
-    width: 146px;
-    height: 153px;
+    margin: 10% 0 10% 0;
+    width: 11rem;
+    height: 15rem;
     background-color: gray;
+}
+.texto-quad {
+    color: white;
+    text-align: center;
+    margin-top: 15.5rem; /* Ajuste conforme necessário */
+}
+.texto-quad2 {
+    color: white;
+    text-align: center;
+    margin-top: 15.5rem;
 }
