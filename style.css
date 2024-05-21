@@ -25,7 +25,7 @@
 .blocos{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 6%;
+    padding-left: 4%;
     font-family: var(--fonte-principal);
     padding-bottom: 10%;
     border-bottom: 2px solid green;
