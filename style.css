@@ -1,17 +1,6 @@
 *{
     background-color: #0e040e;
 }
-.logo{
-    position: relative;
-    z-index: 1;
-}
-.logo img {
-    position: absolute;
-    top: 2rem; /* ajuste conforme necessário */
-    left: -1.5rem; /* ajuste conforme necessário */
-    width: 100px; /* ajuste conforme necessário */
-    height: auto; /* ajuste conforme necessário */
-}
 
 .titulo{
     color: green;
