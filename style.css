@@ -1,0 +1,50 @@
+*{
+    background-color: black;
+}
+.titulo{
+    color: green;
+    font-size: 50px;
+    padding-left: 4rem;
+    line-height: 6rem;
+    margin-top: 17px;
+    font-family: Luckiest Guy;
+    border-bottom: 3px solid green;
+    border-width: 100%;
+}
+.subtitulo > .text-sub{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    margin-top: 5%;
+}
+.blocos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12%;
+
+}
+.quad1{
+    margin: 5%;
+    width: 146px;
+    height: 153px;
+    background-color: gray;
+}
+.quad2{
+    margin: 10px;
+    width: 146px;
+    height: 153px;
+    background-color: green;
+}
+.quad3{
+    margin: 10px;
+    width: 146px;
+    height: 153px;
+    background-color: white;
+}
+.quad4{
+    margin: 10px;
+    width: 146px;
+    height: 153px;
+    background-color: gray;
+}

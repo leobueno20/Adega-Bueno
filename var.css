@@ -1,0 +1,9 @@
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  :root {
+    --fonte-principal: 'Luckiest Guy';/* Define a variável --fonte-principal com o valor 'Arial', sans-serif */
+    --cor-teste: red
+  }
