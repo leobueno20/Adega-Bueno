@@ -25,12 +25,19 @@
 
 }
 .quad1{
-    margin: 5%;
+    background-image: url(assets/copao.jpg);
+    background-size: cover;
+    margin: 10px;
     width: 146px;
     height: 153px;
-    background-color: gray;
+    color: white;
+}
+.quad1 .texto{
+    color: blanchedalmond;
 }
 .quad2{
+    background-image: url(assets/brahma.jpg);
+    background-position: center center;
     margin: 10px;
     width: 146px;
     height: 153px;
