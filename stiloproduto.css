@@ -6,6 +6,7 @@
     color: green;
 }
   .todos-cards {
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +28,45 @@
   .card img {
     margin: 8px 0 0 6px;
     width: 8rem;
-    height: 120px;
+    height: 9rem;
   }
   
   .card-content {
-    padding: 1rem 0 0 1rem;
+    padding: 0.5rem 0 0 1rem;
   }
-  
+.contador {
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.contador button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.preco {
+    margin-left: auto;
+}
+.adicionar{
+    margin-top: 7%; 
+}
+.adicionar button{
+    background-color: green;
+    color: #ddd;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+
+}
+footer h2{
+    background-color: black;
+    padding-top: 5%;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-medieval);}
+footer a{
+    text-decoration: none;
+    color: green;}
