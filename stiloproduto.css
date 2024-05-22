@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+  }
+  
+  .card {
+    width: 370px; /* Largura fixa do card */
+    height: 150px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .card img {
+    margin: 8px 0 0 6px;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .card-content {
+    padding: 10px;
+    flex-grow: 1; 
+  }
+  
+  .card-content p {
+    margin-bottom: 10px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+  }
+  

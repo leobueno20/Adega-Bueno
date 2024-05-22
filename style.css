@@ -1,22 +1,22 @@
 *{
-    background-color: #0e040e;
+    background-color: #181626;
 }
 
 .titulo{
-    color: green;
+    color: #437e27;
     font-size: 50px;
     text-align: center;
     padding-bottom: 1rem;
     line-height: 6rem;
     margin-top: 0.8rem;
     font-family: var(--fonte-medieval);
-    border-bottom: 3px solid green;
+    border-bottom: 8px solid #437e27;
     border-width: 100%;
     text-shadow: 2px 2px 1px white;
 }
 
 .subtitulo > .text-sub{
-    color: white;
+    color: rgb(236, 220, 220);
     font-size: 0.8rem;
     text-align: center;
     font-family: var(--fonte-principal);
@@ -25,10 +25,10 @@
 .blocos{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 4%;
+    padding-left: 5%;
     font-family: var(--fonte-principal);
     padding-bottom: 10%;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #437e27;
 }
 
 .quad{
@@ -45,12 +45,13 @@
     width: 10.5rem;
     height: 14.7rem;
     border-radius: 12px;
-    border: 1px solid greenyellow;
+    border: 1px solid #437e27;
 }
 .texto-quad {
-    text-decoration: none;
+    font-family: var(--fonte-medieval);
     color: white;
     text-align: center;
+
 }
 
 
@@ -60,8 +61,75 @@ footer h2{
     font-size: 1.2rem;
     color: white;
     text-align: center;
+    font-family: var(--fonte-medieval);
 }
 footer a{
     text-decoration: none;
     color: green;
 }
+@media only screen and (max-width: 411px) {
+    .blocos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5%;
+        font-family: var(--fonte-principal);
+        padding-bottom: 10%;
+        border-bottom: 2px solid #437e27;
+    }
+    
+    .quad{
+        margin: 10% 10% 0 0;
+        width: 9rem;
+        height: 15rem;
+        color: white;
+        border-radius: 12px;
+        
+        
+    }
+    .quad img{
+        margin: 0 0 0 0;
+        width: 10.5rem;
+        height: 14.7rem;
+        border-radius: 12px;
+        border: 1px solid #437e27;
+    }
+    .texto-quad {
+        font-family: var(--fonte-medieval);
+        color: white;
+        text-align: center;
+    
+    }
+  }
+  @media only screen and (max-width: 379px) {
+    .blocos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 12%;
+        font-family: var(--fonte-principal);
+        padding-bottom: 25%;
+        border-bottom: 2px solid #437e27;
+    }
+    
+    .quad{
+        margin: 20% 20% 0 0;
+        width: 5rem;
+        height: 13rem;
+        color: white;
+        border-radius: 12px;
+        
+        
+    }
+    .quad img{
+        margin: 0 0 0 0;
+        width: 8rem;
+        height: 14.7rem;
+        border-radius: 12px;
+        border: 1px solid #437e27;
+    }
+    .texto-quad {
+        font-family: var(--fonte-medieval);
+        color: white;
+        text-align: center;
+    
+    }
+  }
