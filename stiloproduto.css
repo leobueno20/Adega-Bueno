@@ -44,22 +44,44 @@
 .contador button {
     background-color: #f0f0f0;
     border: none;
-    padding: 8px 10px;
+    padding: 3px 10px;
     cursor: pointer;
 }
 .preco {
     margin-left: auto;
 }
 .adicionar{
-    margin-top: 7%; 
+    margin-top: 1%; 
 }
 .adicionar button{
+    font-size: 16px;
     background-color: green;
     color: #ddd;
     width: 90%;
-    height: 30px;
+    height: 30%;
     border-radius: 10px;
-
+}
+.botoes{
+  background-color: black;
+  padding: 0 0 5% 0;
+}
+.butao-car{
+  display: flex;
+  width: 55%;
+  font-size: 1.1rem;
+  color: #ddd;
+  background-color: green;
+  font-family: var(--fonte-medieval);
+  text-align: center;
+  padding: 3% 0 3% 0;
+  border-radius: 15px;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.butao-car:hover{
+  background-color: red;
 }
 footer h2{
     background-color: black;
