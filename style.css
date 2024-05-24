@@ -28,7 +28,7 @@
     padding-left: 5%;
     font-family: var(--fonte-principal);
     padding-bottom: 10%;
-    border-bottom: 2px solid #437e27;
+    
 }
 
 .quad{
@@ -38,7 +38,7 @@
     color: white;
     border-radius: 12px;
     text-align: center;
-    
+    text-align: center;
 }
 .quad img{
     margin: 0 0 0 0;
@@ -46,6 +46,7 @@
     height: 14.7rem;
     border-radius: 12px;
     border: 1px solid #437e27;
+    text-align: center;
 }
 .texto-quad {
     font-family: var(--fonte-medieval);
@@ -53,6 +54,22 @@
     text-align: center;
 
 }
+.butao-car{
+    display: flex;
+    width: 55%;
+    font-size: 1.1rem;
+    color: #ddd;
+    background-color: green;
+    
+    font-family: var(--fonte-medieval);
+    text-align: center;
+    padding: 3% 0 3% 0;
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
 footer h2{
     padding-top: 5%;
     font-size: 1.2rem;
@@ -64,6 +81,7 @@ footer a{
     text-decoration: none;
     color: green;
 }
+
 @media only screen and (max-width: 411px) {
     .blocos{
         display: flex;
@@ -71,7 +89,7 @@ footer a{
         padding-left: 5%;
         font-family: var(--fonte-principal);
         padding-bottom: 10%;
-        border-bottom: 2px solid #437e27;
+        text-align: center;
     }
     
     .quad{
@@ -80,7 +98,7 @@ footer a{
         height: 15rem;
         color: white;
         border-radius: 12px;
-        
+        text-align: center;
         
     }
     .quad img{
@@ -89,31 +107,32 @@ footer a{
         height: 14.7rem;
         border-radius: 12px;
         border: 1px solid #437e27;
+        text-align: center;
     }
     .texto-quad {
         font-family: var(--fonte-medieval);
         color: white;
         text-align: center;
     
-    }
-  }
+    }}
 @media only screen and (max-width: 379px) {
+    
     .blocos{
         display: flex;
         flex-wrap: wrap;
         padding-left: 12%;
         font-family: var(--fonte-principal);
         padding-bottom: 25%;
-        border-bottom: 2px solid #437e27;
+        text-align: center;
     }
     
     .quad{
-        margin: 20% 20% 0 0;
+        margin: 12% 20% 0 0;
         width: 5rem;
         height: 13rem;
         color: white;
         border-radius: 12px;
-        
+        text-align: center;
         
     }
     .quad img{
@@ -122,11 +141,44 @@ footer a{
         height: 14.7rem;
         border-radius: 12px;
         border: 1px solid #437e27;
+        text-align: center;
     }
     .texto-quad {
         font-family: var(--fonte-medieval);
         color: white;
         text-align: center;
     
-    }
-  }
+    }}
+@media only screen and (max-width: 311px) {
+        .blocos{
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 4%;
+            font-family: var(--fonte-principal);
+            padding-bottom: 25%;
+            text-align: center;
+        }
+        
+        .quad{
+            margin: 12% 20% 0 0;
+            width: 5rem;
+            height: 13rem;
+            color: white;
+            border-radius: 12px;
+            text-align: center;
+            
+        }
+        .quad img{
+            margin: 0 0 0 0;
+            width: 8rem;
+            height: 14.7rem;
+            border-radius: 12px;
+            border: 1px solid #437e27;
+            text-align: center;
+        }
+        .texto-quad {
+            font-family: var(--fonte-medieval);
+            color: white;
+            text-align: center;
+        
+        }}
