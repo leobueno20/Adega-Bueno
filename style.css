@@ -59,9 +59,14 @@ main{
 }
 .texto-quad {
     font-family: var(--fonte-medieval);
-    color: white;
     text-align: center;
 
+}
+.texto-quad > h2{
+    text-align: center;
+    background-color: #437e27;
+    width: 7rem;
+    border-radius: 7px;
 }
 .butao-car{
     display: flex;
@@ -137,7 +142,7 @@ footer a{
     }
     
     .quad{
-        margin: 12% 20% 0 0;
+        margin: 20% 20% 0 0;
         width: 5rem;
         height: 13rem;
         color: white;
@@ -155,10 +160,15 @@ footer a{
     }
     .texto-quad {
         font-family: var(--fonte-medieval);
-        color: white;
         text-align: center;
     
     }}
+    .texto-quad > h2{
+        text-align: center;
+        background-color: #437e27;
+        width: 7rem;
+        border-radius: 7px;
+    }
 @media only screen and (max-width: 311px) {
         .blocos{
             display: flex;

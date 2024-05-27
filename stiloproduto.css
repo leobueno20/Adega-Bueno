@@ -93,3 +93,35 @@ footer h2{
 footer a{
     text-decoration: none;
     color: green;}
+@media only screen and (max-width: 379px) {
+  .todos-cards {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .card {
+    width: 320px; /* Largura fixa do card */
+    height: 150px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    font-family: var(--fonte-principal);
+  }
+  
+  .card img {
+    margin: 8px 0 0 6px;
+    width: 8rem;
+    height: 9rem;
+  }
+  
+  .card-content {
+    padding: 0.5rem 0 0 1rem;
+  }
+}
