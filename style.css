@@ -62,12 +62,9 @@ main{
     text-align: center;
     
 }
-.texto-quad > h2{
+.texto-foto{
     background-color: #437e27;
-    width: 7rem;
-    border-radius: 7px;
-    display: inline-block; /* Garante que a largura se ajuste ao conteúdo */
-    padding: 5px 10px; /* Adapte conforme necessário */
+    border-radius: 6px;
 }
 .butao-car{
     display: flex;
@@ -161,16 +158,14 @@ footer a{
     .texto-quad {
         font-family: var(--fonte-medieval);
         text-align: center;
-    
-    }}
-    .texto-quad > h2{
-        background-color: #437e27;
-        width: 7rem;
         
-        border-radius: 7px;
-        display: inline-block; /* Garante que a largura se ajuste ao conteúdo */
-        padding: 5px 10px; /* Adapte conforme necessário */
     }
+    .texto-foto{
+        background-color: #437e27;
+        border-radius: 6px;
+        width: 7rem;
+    }}
+
 @media only screen and (max-width: 320px) {
         .blocos{
             display: flex;
@@ -182,7 +177,7 @@ footer a{
         }
         
         .quad{
-            margin: 12% 20% 0 0;
+            margin: 22% 20% 0 0;
             width: 5rem;
             height: 13rem;
             color: white;
@@ -200,15 +195,12 @@ footer a{
         }
         .texto-quad {
             font-family: var(--fonte-medieval);
-            color: white;
             text-align: center;
-        
             
         }
-        .texto-quad > h2{
+        .texto-foto{
             background-color: #437e27;
             width: 7rem;
-            border-radius: 7px;
-            display: inline-block; /* Garante que a largura se ajuste ao conteúdo */
-            padding: 5px 7px; /* Adapte conforme necessário */
-        }}
+            border-radius: 6px;
+        }
+        }
